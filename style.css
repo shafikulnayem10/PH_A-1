@@ -186,6 +186,48 @@ body {
   border-radius: 90px;
   display: inline-block;
 }
+/* SECOND BRAIN */
+.brain-section-parent {
+  padding: 80px 0;
+}
 
+.brain-section-content-parent {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
 
-  
+.brain-image img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.SolutionTxt{
+  color: #2e7d32;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.brain-text ul {
+  list-style: none;  
+  margin-top: 15px;
+  padding-left: 0;    
+}
+
+.brain-text li {
+  position: relative;
+  padding-left: 28px;
+  margin-bottom: 8px;
+}
+
+.brain-text li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 18px;
+  height: 18px;
+  background-image: url("./assets/CheckCircle.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
