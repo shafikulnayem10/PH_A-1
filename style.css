@@ -30,6 +30,7 @@ body {
 
 
 
+
 /* NAVBAR SECTION */
 
 .nav-parent {
@@ -230,4 +231,74 @@ body {
   background-image: url("./assets/CheckCircle.png");
   background-size: contain;
   background-repeat: no-repeat;
+}
+ 
+/* EARLY SECTION */
+.early-acces-section-parent {
+  background: hsla(0, 0%, 100%, 0.876);          
+  padding: 0px 120px 120px 120px;             
+  display: flex;
+  justify-content: center;
+}
+
+.early-acces-section-content-parent {
+  background: lightgray;         
+  width: 90%;
+  max-width: 1100px;
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.early-acces-section-content-parent h2 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.early-acces-section-content-parent p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.early-section-btn {
+  background: #2e7d32;
+  color: #fff;
+  border: none;
+  padding: 14px 26px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s ease;
+}
+
+.early-section-btn:hover {
+  background: #3b2564;
+}
+
+.small-div{
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.small{
+    font-size: 14px;
+    color: #666;
+    margin-top: 8px;
+}
+.dot-text {
+  display: inline-flex;     
+  align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+
+.dot-text::before {
+  content: "•";
+  color: #000;
+  font-size: 18px;
+  line-height: 1;
 }
