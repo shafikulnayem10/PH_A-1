@@ -137,5 +137,55 @@ body {
     height: 20px;
     width: 20px;
 }
+/* NOTES Section */
+
+.notes-section-parent{
+  padding: 80px 0;
+  text-align: center;
+}
+.notes-heading{
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Inter;
+}
+
+.subtitle {
+  margin: 10px 0 40px;
+  color: #555;
+  font-size: 17px;
+  font-family: Inter;
+  
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  padding: 25px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+.card h3 {
+  margin: 15px 0;
+}
+.card p {
+  color: #666;
+}
+.card img {
+  height: 30px;
+  width: 30px;
+}
+.icon {
+  background: rgb(255, 81, 0);
+  padding: 15px;
+  border-radius: 90px;
+  display: inline-block;
+}
+
 
   
