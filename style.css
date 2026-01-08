@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  color: #1f2933;
+  line-height: 1.6;
+}
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+/* BUTTONS */
+.btn {
+  padding: 10px 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #2e7d32;
+  color: #fff;
+}
+
+.btn:hover {
+  background: blue;
+
+}
+
+
+/* NAVBAR SECTION */
+
+.nav-parent {
+  background: #ffffff;
+  padding: 16px 120px 16px 120px;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-content-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.nav-menu a {
+  margin: 16px 16px;
+  text-decoration: none;
+  color: #333;
+
+}
